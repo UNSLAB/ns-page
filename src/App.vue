@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import AppNavigation from '@/components/AppNavigation'
+import AppNavigation from '@/components/AppNavigation';
 
 export default {
   name: 'App',
@@ -23,3 +23,9 @@ export default {
   })
 };
 </script>
+
+<style>
+* {
+  text-transform: none !important;
+}
+</style>
